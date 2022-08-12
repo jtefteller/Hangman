@@ -1,0 +1,44 @@
+.primaryBtn {
+	background-color: #DCD7C9;
+	border: solid #A27B5C 3px;
+	color: #A27B5C;
+	margin: 15px;
+	width: auto;
+	height: 2.35em;
+	border-collapse: collapse;
+	border-radius: 10%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.5em;
+	font-weight: 900;
+	margin: 4px 4px;
+	cursor: pointer;
+}
+
+.secondaryBtn {
+	position: relative;
+	background-color: #A27B5C;
+	border: solid #DCD7C9 3px;
+	color: #DCD7C9;
+	width: 3.75em;
+	height: 3.75em;
+	border-collapse: collapse;
+	border-radius: 10%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.5em;
+	font-weight: 900;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.secondaryBtnClicked:after {
+		position: absolute;
+		left: 0;
+		top: 50%;
+		height: 1px;
+		content: "";
+		width: 100%;
+}

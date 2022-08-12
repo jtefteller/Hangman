@@ -1,0 +1,24 @@
+
+.wordForm{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+}
+.wordForm > input {
+	width: 90%;
+	height: 2em;
+	color:#DCD7C9;
+	border: 3px solid #DCD7C9;
+	background: transparent;
+	background-color: #2C3639;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+.wordForm > input::placeholder {
+	color: #DCD7C9;
+	text-align: center;
+}

@@ -1,0 +1,17 @@
+
+.controls {
+  display: flex;
+  background-color: #3F4E4F;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 30%;
+  border-left: 3px solid #DCD7C9;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 2;
+}
+.top {
+  margin-top: 1rem;
+  width: 100%;
+}
